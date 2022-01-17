@@ -11,10 +11,12 @@ packages:
   audio_service:
     dependency: "direct main"
     description:
-      name: audio_service
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.18.3"
+      path: audio_service
+      ref: "fix/839-fragment-activity"
+      resolved-ref: ab4a4463bb04cafd56365f0a9ab8f1b825832928
+      url: "https://github.com/deimantasa/audio_service"
+    source: git
+    version: "0.18.0"
   audio_service_platform_interface:
     dependency: transitive
     description:
@@ -384,7 +386,7 @@ packages:
       name: win32
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.3.3"
+    version: "2.3.6"
   xdg_directories:
     dependency: transitive
     description:

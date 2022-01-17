@@ -34,9 +34,14 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  audio_service: ^0.18.3
   just_audio: ^0.9.18
   rxdart: ^0.27.3
+
+  audio_service:
+    git:
+      url: https://github.com/deimantasa/audio_service
+      path: audio_service
+      ref: fix/839-fragment-activity
 
 dev_dependencies:
   flutter_test:
